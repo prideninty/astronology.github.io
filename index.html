@@ -1,0 +1,302 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>星座物语</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="logo-暗.svg" rel="shortcut icon">
+<style type="text/css">
+	#box{
+		width: 1275px;
+		height: 522px;
+		position: relative;
+		top: 100px;
+		margin: 0 auto;
+		animation: changimg 18s ease-in-out infinite;
+	}
+	#show{
+		position: relative;
+		top: 270px;
+		width: 1355px;
+		margin: 0 auto;
+		}
+	#poem{
+		width: 1355px;
+		position: absolute;
+		text-align: center;
+		font-family: "微软雅黑";
+		color: papayawhip;
+		font-size: 24px;
+		font-weight: bold;
+		filter: brightness(1.2);
+		z-index: 3;
+	}
+	#backpic{
+		width: 2000px;
+		height: 1355px;
+		opacity: 1;
+		position: absolute;
+		margin-top:95px ;
+		filter: brightness(0.5)blur(10px);
+		opacity: 0.7;
+		z-index: 0;
+	}
+	#backpic2{
+		width: 2000px;
+		height: 1355px;
+		opacity: 1;
+		position: absolute;
+		margin-top:95px ;
+		filter: brightness(0.8)blur(10px);
+		opacity: 0.7;
+		z-index: 1;
+		animation: shanshuo2 2.5s ease-in-out infinite;
+	}
+	#starA{
+		filter: blur(20px)brightness(2);
+		position: absolute;
+		margin-top: 250px;
+		margin-left: 300px;
+		animation: shanshuo2 2s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starB{
+		filter: blur(20px)brightness(1.4);
+		position: absolute;
+		margin-top: 750px;
+		margin-left: 1200px;
+		animation: shanshuo2 2s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starE{
+		filter: blur(20px)brightness(1.4);
+		position: absolute;
+		margin-top: 550px;
+		margin-left: 1200px;
+		animation: shanshuo2 2s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starC{
+		filter: blur(20px)brightness(1.7);
+		position: absolute;
+		margin-top: 750px;
+		margin-left: 540px;
+		animation: shanshuo2 2s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starD{
+		filter: blur(20px)brightness(1.6);
+		position: absolute;
+		margin-top: 890px;
+		margin-left: 980px;
+		animation: shanshuo2 1.8s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starF{
+		filter: blur(20px)brightness(1.4);
+		position: absolute;
+		margin-top: 550px;
+		margin-left: 100px;
+		animation: shanshuo2 2.2s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starG{
+		filter: blur(20px)brightness(1.6);
+		position: absolute;
+		margin-top: 860px;
+		margin-left: 500px;
+		animation: shanshuo2 2s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starH{
+		filter: blur(20px)brightness(1.8);
+		position: absolute;
+		margin-top: 700px;
+		margin-left:290px;
+		animation: shanshuo2 1.5s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starI{
+		filter: blur(20px)brightness(1.8);
+		position: absolute;
+		margin-top: 680px;
+		margin-left: 1000px;
+		animation: shanshuo2 3s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starJ{
+		filter: blur(20px)brightness(2.4);
+		position: absolute;
+		margin-top: 150px;
+		margin-left: 700px;
+		animation: shanshuo2 3s ease-in-out infinite;
+		z-index: 1;
+	}
+	#starK{
+		filter: blur(20px)brightness(2.4);
+		position: absolute;
+		margin-top: 450px;
+		margin-left: 900px;
+		animation: shanshuo2 2.5s ease-in-out infinite;
+		z-index: 1;
+	}
+	@keyframes changimg{
+		0%{opacity: 0;}
+		2.08%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/摩羯.png")}
+		6.24%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/摩羯.png")}
+		8.32%{opacity: 0;filter:brightness(0)}
+		10.4%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/双子.png");}
+		14.56%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/双子.png");}
+		16.64%{opacity: 0;filter:brightness(0)}
+		18.72%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/水瓶.png");}
+		22.88%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/水瓶.png");}
+		24.96%{opacity: 0;filter:brightness(0)}
+		27.04%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/天秤.png");}
+		31.2%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/天秤.png");}
+		33.28%{opacity: 0;filter:brightness(0)}
+		35.36%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/金牛.png");}
+		39.52%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/金牛.png");}
+		41.6%{opacity: 0;filter:brightness(0)}
+		43.68%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/双鱼.png");}
+		47.84%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/双鱼.png");}
+		49.92%{opacity: 0;filter:brightness(0)}
+		52%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/天蝎.png");}
+		56.16%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/天蝎.png");}
+		58.24%{opacity: 0;filter:brightness(0)}
+		60.32%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/巨蟹.png");}
+		64.48%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/巨蟹.png");}
+		66.52%{opacity: 0;filter:brightness(0)}
+		68.6%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/白羊.png");}
+		72.76%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/白羊.png");}
+		74.84%{opacity: 0;filter:brightness(0)}
+		76.92%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/狮子.png");}
+		81.08%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/狮子.png");}
+		83.16%{opacity: 0;filter:brightness(0)}
+		85.24%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/射手.png");}
+		89.4%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/射手.png");}
+		91.48%{opacity: 0;filter:brightness(0)}
+		93.56%{opacity: 1;filter: brightness(1.2);content: url("灵动岛/处女.png");}
+		97.72%{opacity: 1;filter:brightness(1.2);content: url("灵动岛/处女.png");}
+		100%{opacity: 0;filter:brightness(0)}	
+	}	
+	@keyframes shanshuo{
+		0%{opacity: 1;}
+		50%{opacity: 0.3;}
+		100%{opacity: 1;}
+	}
+	@keyframes shanshuo2{
+		0%{opacity: 0.7;}
+		50%{opacity: 0.3;}
+		100%{opacity: 0.7;}
+	}
+</style>
+</head>
+<body class="blackpart">
+	<header id="header">		
+			<div id="nav">
+					<ul>
+						<li><a href="index.html"><img src="logo-明.svg" width="80"></a></li>
+						<li><a href="information.html" title="联系我们">Sign of Star</a></li>
+					</ul>
+					<ol>
+						<li><a href="information.html">联系我们</a></li>
+						<li><a href="introduction.html">观测指南</a></li>
+						<li><a href="story.html">星座故事</a></li>
+						<li><a href="fourinspect.html">四象星座</a></li>
+						<li><a href="index.html" class="current">首页</a></li>
+					</ol>
+			</div>
+	</header>
+	<div id="box">
+		<img src="灵动岛/摩羯.png" width="30" height="20"/>
+	</div>
+	<div id="backpic">
+		<img src="back/starnight.svg"/>
+	</div>
+	<div id="backpic2">
+		<img src="back/starnight.svg"/>
+	</div>
+	<div id="starA">
+		<img src="back/starA.png"width="200" height="260"/>
+	</div>
+	<div id="starB">
+		<img src="back/StarB.svg"width="90" height="100"/>	
+	</div>
+	<div id="starC">
+		<img src="back/StarB.svg"width="130" height="70"/>	
+	</div>
+	<div id="starD">
+		<img src="back/starC.png"width="50" height="50"/>	
+	</div>
+	<div id="starE">
+		<img src="back/starC.png"width="40" height="55"/>	
+	</div>
+	<div id="starF">
+		<img src="back/starC.png"width="30" height="64"/>	
+	</div>
+	<div id="starG">
+		<img src="back/starC.png"width="30" height="42"/>	
+	</div>
+	<div id="starH">
+		<img src="back/starC.png"width="30" height="50"/>	
+	</div>
+	<div id="starI">
+		<img src="back/starC.png"width="30" height="25"/>	
+	</div>
+	<div id="starJ">
+		<img src="back/starA.png"width="160" height="222"/>
+	</div>
+	<div id="starK">
+		<img src="back/starA.png"width="130" height="165"/>
+	</div>
+	<div id="show">
+		<div id="poem">
+			The constellations in the night sky<br />
+			夜空中的星座<br />
+			Are the dreams in your and my heart<br />
+			是你我心中的梦想<br />
+			They sparkle with light<br />
+			它们闪烁着光芒<br />
+			Guiding our direction<br />
+			引导着我们的方向<br /><br /><br />
+			
+			The courage of Aries<br />
+			白羊座的勇气<br />
+			The persistence of Taurus<br />
+			金牛座的坚持<br />
+			The agility of Gemini<br />
+			双子座的灵巧<br />
+			The tenderness of Cancer<br />
+			巨蟹座的温柔<br /><br /><br />
+			
+			The charm of Leo<br />
+			狮子座的魅力<br />
+			The meticulousness of Virgo<br />
+			处女座的细心<br />
+			The balance of Libra<br />
+			天秤座的平衡<br />
+			The passion of Scorpio<br />
+			天蝎座的深情<br /><br /><br />
+			
+			The freedom of Sagittarius<br />
+			射手座的自由<br />
+			The effort of Capricorn<br />
+			摩羯座的努力<br />
+			The innovation of Aquarius<br />
+			水瓶座的创新<br />
+			The romance of Pisces<br />
+			双鱼座的浪漫<br /><br /><br />
+			
+			Each constellation has its own characteristics<br />
+			每个星座都有自己的特色<br />
+			Each person has their own destiny<br />
+			每个人都有自己的命运<br />
+			Let us look up at the starry sky together<br />
+			让我们一起仰望星空<br />
+			Find the stars that belong to us<br />
+			寻找属于我们的星辰<br />
+		</div>
+	</div>
+	
+</body>
+</html>
